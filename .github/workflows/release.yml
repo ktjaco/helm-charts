@@ -24,6 +24,12 @@ jobs:
         with:
           version: v3.4.0
 
+      - name: Helm add dependencies
+        run: |
+          helm repo add kartoza https://kartoza.github.io/charts
+          helm repo add statcan https://statcan.github.io/charts
+          helm repo add bitnami https://charts.bitnami.com/bitnami
+
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
         env:
