@@ -27,7 +27,7 @@ dependencies:
     version: 0.2.4
     repository: https://kartoza.github.io/charts
   - name: geoserver
-    version: 0.0.1
+    version: 0.0.2
     repository: https://statcan.github.io/charts
   - name: rabbitmq
     version: 1.x.x
