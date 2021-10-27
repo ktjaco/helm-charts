@@ -3,6 +3,26 @@ entries:
   geonode:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-10-27T19:18:01.070834218Z"
+    dependencies:
+    - name: postgis
+      repository: https://kartoza.github.io/charts
+      version: 0.2.4
+    - name: geoserver
+      repository: https://statcan.github.io/charts
+      version: 0.0.2
+    - name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.24.1
+    description: A Helm chart for Kubernetes
+    digest: 7685cdf537f464608faf96374b3cdafd6f8513159446e5fbb873b3af89d0f172
+    name: geonode
+    type: application
+    urls:
+    - https://github.com/ktjaco/charts/releases/download/geonode-0.1.4/geonode-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-10-27T18:43:53.09562Z"
     dependencies:
     - name: postgis
@@ -61,4 +81,4 @@ entries:
     urls:
     - https://github.com/ktjaco/charts/releases/download/geonode-0.1.1/geonode-0.1.1.tgz
     version: 0.1.1
-generated: "2021-10-27T18:43:53.095645201Z"
+generated: "2021-10-27T19:18:01.070850119Z"
