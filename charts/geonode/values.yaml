@@ -272,7 +272,7 @@ geoserver:
     pullPolicy: IfNotPresent
   
   nameOverride: "geoserver-app"
-  fullnameOverride: "geoserver-chart"
+  fullnameOverride: "geoserver"
   
   replicaCount: 1
   
