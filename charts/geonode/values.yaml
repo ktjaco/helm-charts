@@ -267,12 +267,12 @@ geoserver:
   # Declare variables to be passed into your templates.
   
   image:
-    repository: k8scc01covidacr.azurecr.io/geoserver
-    tag: "latest"
+    repository: kartoza/geoserver
+    tag: "2.18.2"
     pullPolicy: IfNotPresent
   
   nameOverride: "geoserver-app"
-  fullnameOverride: "geoserver"
+  fullnameOverride: "geoserver-chart"
   
   replicaCount: 1
   
