@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: geonetwork
+  labels:
+    app: geonetwork
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: geonetwork
+  template:
+    metadata:
+      name: geonetwork
+      labels:
+        app: geonetwork 
+    spec:
+      containers:
+      - name: daaas-geonetwork
+        image: ktjaco/daaas-geonetwork
+        env:
+          - name: POSTGRES_DB_USERNAME
+            value: "postgres"
+          - name: POSTGRES_DB_PASSWORD
+            value: "postgres"
+          - name: POSTGRES_DB_HOST
+            value: "192.168.50.59"
+        ports:
+          - containerPort: 8080

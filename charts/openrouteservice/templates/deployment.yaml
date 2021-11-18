@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openrouteservice
+  labels:
+    app: openrouteservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: openrouteservice
+  template:
+    metadata:
+      name: openrouteservice
+      labels:
+        app: openrouteservice 
+    spec:
+      containers:
+      - name: daaas-openrouteservice
+        image: ktjaco/daaas-ors
+        command: ["/bin/sh"]
+        args: ["-c","mkdir -p conf elevation_cache graphs logs/ors logs/tomcat"]
+        ports:
+          - containerPort: 8080
