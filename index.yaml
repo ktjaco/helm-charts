@@ -3,6 +3,20 @@ entries:
   geonetwork:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-11-18T21:23:17.622925635Z"
+    dependencies:
+    - name: postgis
+      repository: https://kartoza.github.io/charts
+      version: 0.2.4
+    description: A Helm chart for Kubernetes
+    digest: 5f08bae07dd6d5770346afbc185a52780c35981ebbd054542a0ff7e8d887e80d
+    name: geonetwork
+    type: application
+    urls:
+    - https://github.com/ktjaco/helm-charts/releases/download/geonetwork-0.1.5/geonetwork-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-11-18T21:16:04.452062929Z"
     dependencies:
     - name: postgis
@@ -215,4 +229,4 @@ entries:
     urls:
     - https://github.com/ktjaco/helm-charts/releases/download/openrouteservice-0.1.0/openrouteservice-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-18T21:16:04.452116829Z"
+generated: "2021-11-18T21:23:17.622968735Z"
