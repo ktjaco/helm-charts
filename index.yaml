@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  geonetwork:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-18T17:11:18.301858902Z"
+    description: A Helm chart for Kubernetes
+    digest: beb27e3c1c71d7899f20bc9c20cdd228d22835e862759ce146552991512432eb
+    name: geonetwork
+    type: application
+    urls:
+    - https://github.com/ktjaco/helm-charts/releases/download/geonetwork-0.1.0/geonetwork-0.1.0.tgz
+    version: 0.1.0
   geonode:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -141,4 +152,15 @@ entries:
     urls:
     - https://github.com/ktjaco/charts/releases/download/geonode-0.1.1/geonode-0.1.1.tgz
     version: 0.1.1
-generated: "2021-10-27T19:51:13.756963003Z"
+  openrouteservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-18T17:11:18.485156206Z"
+    description: A Helm chart for Kubernetes
+    digest: e10e1b696392a2e49d0d975d018595be6ed12f7642a6e6e60a213316f9cd8077
+    name: openrouteservice
+    type: application
+    urls:
+    - https://github.com/ktjaco/helm-charts/releases/download/openrouteservice-0.1.0/openrouteservice-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-18T17:11:18.485176306Z"
