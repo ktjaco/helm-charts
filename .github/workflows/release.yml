@@ -32,8 +32,6 @@ jobs:
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
-	with:
-	  args: "dev/* https://ktjaco.github.io/helm-charts"
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
