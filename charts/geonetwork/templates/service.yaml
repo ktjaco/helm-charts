@@ -10,3 +10,5 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
+  selector:
+    {{- include "geonetwork.fullname" . | nindent 4 }}
