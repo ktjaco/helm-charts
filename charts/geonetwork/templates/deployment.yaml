@@ -27,3 +27,6 @@ spec:
             value: "192.168.50.59"
         ports:
           - containerPort: 8080
+        selector:
+          matchLabels:
+            app: geonetwork
