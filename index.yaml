@@ -267,4 +267,14 @@ entries:
     urls:
     - https://github.com/ktjaco/helm-charts/releases/download/openrouteservice-0.1.0/openrouteservice-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-22T19:12:44.146275124Z"
+  pycws:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2021-11-22T19:16:30.300012708Z"
+    description: A Helm chart for pycsw.
+    digest: fc1cc6193f3bc991e414763c1c70da57538fd94d8bc61692ece0b15c9636aab7
+    name: pycws
+    urls:
+    - https://github.com/ktjaco/helm-charts/releases/download/pycws-0.0.1/pycws-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-11-22T19:16:30.300122612Z"
