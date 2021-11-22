@@ -115,6 +115,20 @@ entries:
     urls:
     - https://github.com/ktjaco/helm-charts/releases/download/geonetwork-0.1.0/geonetwork-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-22T19:30:25.097816009Z"
+    dependencies:
+    - name: postgis
+      repository: https://kartoza.github.io/charts
+      version: 0.2.4
+    description: A Helm chart for Kubernetes
+    digest: 28572ea84470ae1351141dfa6c846563b3fd4f0502e8178acb7487a4dc37f11c
+    name: geonetwork
+    type: application
+    urls:
+    - https://github.com/ktjaco/helm-charts/releases/download/geonetwork-0.0.1/geonetwork-0.0.1.tgz
+    version: 0.0.1
   geonode:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -267,6 +281,16 @@ entries:
     urls:
     - https://github.com/ktjaco/helm-charts/releases/download/openrouteservice-0.1.0/openrouteservice-0.1.0.tgz
     version: 0.1.0
+  pycsw:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2021-11-22T19:30:25.253354775Z"
+    description: A Helm chart for pycsw.
+    digest: 02933c4efb41663eda3154b9dedcf872e2f6449d9447b82f4886c8871f46da26
+    name: pycsw
+    urls:
+    - https://github.com/ktjaco/helm-charts/releases/download/pycsw-0.0.1/pycsw-0.0.1.tgz
+    version: 0.0.1
   pycws:
   - apiVersion: v2
     appVersion: 2.6.0
@@ -277,4 +301,4 @@ entries:
     urls:
     - https://github.com/ktjaco/helm-charts/releases/download/pycws-0.0.1/pycws-0.0.1.tgz
     version: 0.0.1
-generated: "2021-11-22T19:16:30.300122612Z"
+generated: "2021-11-22T19:30:25.253408376Z"
