@@ -20,11 +20,11 @@ spec:
         image: ktjaco/daaas-geonetwork
         env:
           - name: POSTGRES_DB_USERNAME
-            value: "postgres"
+            value: "docker"
           - name: POSTGRES_DB_PASSWORD
-            value: "postgres"
+            value: "password"
           - name: POSTGRES_DB_HOST
-            value: "192.168.50.59"
+            value: "localhost"
         ports:
           - containerPort: 8080
         selector:
